@@ -10,6 +10,21 @@ tutorial's solutions, and one for the
 tutorial's solutions. For example, `17.0`, `17.0-discover-js-framework-solutions` and
 `17.0-master-odoo-web-framework-solutions`.
 
+----------
+
 To run the server: 
 
 python odoo-bin --addons-path="addons,../enterprise,../tutorials" -d odoo_tutorial --db_user=odoo --db_password=odoo --dev=all
+
+----------
+
+To activate the venv (inside Odoo/odoo):
+
+. venv/Scripts/activate
+
+
+------------
+
+To start querying in PostgreSQL 
+
+& "C:\Program Files\PostgreSQL\15\bin\psql.exe" -U odoo -d rd-demo
