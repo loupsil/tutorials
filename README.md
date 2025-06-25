@@ -12,7 +12,7 @@ tutorial's solutions. For example, `17.0`, `17.0-discover-js-framework-solutions
 
 ---------- To run the server: 
 
-python odoo-bin --addons-path="addons,../enterprise,../tutorials" -d odoo_tutorial --db_user=odoo --db_password=odoo --dev=all
+python odoo-bin --addons-path="addons,../enterprise,../tutorials" -d rd-demo -u estate --db_user=odoo --db_password=odoo --dev=all
 
 ---------- To try on local 
 
