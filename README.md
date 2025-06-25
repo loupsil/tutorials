@@ -10,21 +10,28 @@ tutorial's solutions, and one for the
 tutorial's solutions. For example, `17.0`, `17.0-discover-js-framework-solutions` and
 `17.0-master-odoo-web-framework-solutions`.
 
-----------
-
-To run the server: 
+---------- To run the server: 
 
 python odoo-bin --addons-path="addons,../enterprise,../tutorials" -d odoo_tutorial --db_user=odoo --db_password=odoo --dev=all
 
-----------
+---------- To try on local 
 
-To activate the venv (inside Odoo/odoo):
+http://localhost:8069/odoo/
+
+---------- To activate the venv (inside Odoo/odoo):
+
 
 . venv/Scripts/activate
 
 
-------------
+------------ To start querying in PostgreSQL 
 
-To start querying in PostgreSQL 
 
 & "C:\Program Files\PostgreSQL\15\bin\psql.exe" -U odoo -d rd-demo
+
+
+---------- To commit and push (from the right directory)
+
+git add .
+git commint -m "The message comes here"
+git push
