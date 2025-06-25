@@ -30,8 +30,8 @@ http://localhost:8069/odoo/
 & "C:\Program Files\PostgreSQL\15\bin\psql.exe" -U odoo -d rd-demo
 
 
----------- To commit and push (from the right directory)
+---------- To commit and push (from the right directory, often tutorials)
 
 git add .
-git commint -m "The message comes here"
+git commit -m "The message comes here"
 git push
